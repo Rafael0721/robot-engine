@@ -1,0 +1,68 @@
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: url('./font/SEGA.woff') format('woff');
+}
+
+.title{
+  font-family: SEGA LOGO FONT;
+  font-size: 50pt;
+  font-weight: 200;
+  color: #0ccac4;
+}
+
+.searchBox{
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  border: 0px;
+  border-radius: 5px;
+  opacity: 0.8
+}
+
+.App {
+  text-align: center;
+}
+
+.loading-box{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
